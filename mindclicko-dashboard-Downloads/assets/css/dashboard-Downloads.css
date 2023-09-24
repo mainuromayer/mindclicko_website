@@ -1,0 +1,126 @@
+.dashboard a {
+  color: #184ca1;
+}
+.dashboard a:hover {
+  text-decoration: none;
+}
+
+.dashboard .nav a {
+  color: black;
+}
+.dashboard .form-container {
+  padding: 20px;
+}
+
+.dashboard .content {
+  padding: 50px 0px 250px 0;
+}
+
+.dashboard .sidebar_image span {
+  height: 55px;
+  width: 55px;
+  background-image: url(../images/circle-image/image-1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.dashboard .nav-item span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* large Device */
+@media (min-width: 768px) {
+  .dashboard .nav-item a i {
+    display: none;
+  }
+  .dashboard .nav-item span {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .dashboard .sidebar_ul ul {
+    width: 100%;
+  }
+}
+
+/* Medium Device */
+@media (max-width: 767px) {
+  .dashboard .sidebar_image span {
+    width: unset;
+  }
+  .dashboard .sidebar_image_content {
+    text-align: center;
+  }
+  .dashboard .nav-item {
+    margin-left: 12px;
+  }
+  .dashboard .nav-item span {
+    display: none;
+  }
+}
+
+/* Tablet Device */
+@media (max-width: 576px) {
+  .dashboard .sidebar_image span {
+    width: unset;
+  }
+  .dashboard .sidebar_image_content {
+    text-align: center;
+  }
+  .dashboard .nav-item span {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+.checkbox-custom {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-custom,
+.checkbox-custom-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px 3px;
+  cursor: pointer;
+}
+
+.checkbox-custom-label {
+  position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label::before {
+	content: "";
+	background: #fff;
+	border: 2px solid #262262;
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	padding: 2px;
+	margin-right: 9px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+	margin-top: 0;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label::before {
+  background: #262262;
+  border: none;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label {
+  outline: 1px solid #fff; /* focus style */
+}

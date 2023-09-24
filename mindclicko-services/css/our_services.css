@@ -1,0 +1,254 @@
+/* ================ OUR SERVICES START =============== */
+#our_services {
+    background-image: linear-gradient(#262262, #184CA1);
+    color: #fff;
+}
+
+#our_services h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+/* ================ OUR SERVICES END =============== */
+
+/* ================ SERVICE START =============== */
+#service h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#service h5 {
+    font-size: 18px;
+    color: #000000;
+}
+
+#service h1 {
+    font-size: 30px;
+    color: #000000;
+}
+
+#service p {
+    font-size: 16px;
+    color: #000000;
+}
+
+#service .service-section {
+    height: 230px;
+}
+
+#service .service-header {
+    font-size: 19px;
+}
+
+/* ================ SERVICE END =============== */
+
+/* ============= PRICING PLAN START ============= */
+/* ------ pricing_plan_header start ------ */
+#pricing_plan .pricing_plan_header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+#pricing_plan .pricing_plan_header p {
+    font-size: 16px;
+    color: #0C0B0B;
+}
+
+/* ------- pricing_plan_header end ------ */
+
+/* ------ pricing_plan_header_button start ------ */
+#pricing_plan .pricing_plan_header_button .monthly-button {
+    border: 2px solid #1757A6;
+    background-color: #1757A6;
+    padding: 12px 34px;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+#pricing_plan .pricing_plan_header_button .monthly-button:active {
+    background-color: #fff;
+    color: #707070;
+    border: 2px solid #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+#pricing_plan .pricing_plan_header_button .yearly-button {
+    border: 2px solid #f1f1f1;
+    background-color: #fff;
+    padding: 12px 34px;
+    font-weight: 700;
+    color: #707070;
+    transition: all 0.3s ease;
+}
+
+#pricing_plan .pricing_plan_header_button .yearly-button:active {
+    background-color: #1757A6;
+    color: #fff;
+    border: 2px solid #1757A6;
+    transition: all 0.3s ease;
+}
+
+/* ------- pricing_plan_header_button end ------- */
+
+/* ------- pricing_plan_content start ------- */
+
+@media screen and (max-width: 991px) {
+    #pricing_plan .plan-3 {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #pricing_plan .plan-2 {
+        margin-top: 120px;
+    }
+
+    #pricing_plan .plan-3 {
+        margin-top: 120px;
+    }
+}
+
+#pricing_plan .pricing_plan_content .plan_doller {
+    position: relative;
+    top: -35px;
+    font-size: 23px;
+    font-weight: 600;
+    left: -5px;
+}
+
+#pricing_plan .pricing_plan_content .plan_amount {
+    font-size: 66px;
+    font-weight: 600;
+}
+
+#pricing_plan .pricing_plan_content .plan_month {
+    font-size: 14px;
+}
+
+#pricing_plan .pricing_plan_content .plan-content {
+    position: relative;
+    top: -20px;
+}
+
+#pricing_plan .pricing_plan_content ul li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+#pricing_plan .pricing_plan_content ul li::before {
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-size: contain;
+	background-image: url(../images/checked.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 50%;
+	background-color: #FFD139;
+	border: 2px solid #FFD139;
+	margin: 0px 30px -5px 15px;
+}
+
+#pricing_plan .pricing_plan_content ul li span {
+    background-color: #FFD139;
+    padding: 5px 6px;
+    border-radius: 50%;
+    line-height: 3;
+}
+
+@media screen and (max-width: 767px) {
+    #pricing_plan .pricing_plan_content .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* ------- pricing_plan_content end ------- */
+
+/* ------- pricing_plan_footer start ------- */
+#pricing_plan .plan-footer {
+    position: relative;
+    top: 20px;
+}
+
+#pricing_plan .btn-1 button {
+    background-color: #1757A6;
+    color: #fff;
+    padding: 5px 6px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .15s ease-in-out;
+}
+
+#pricing_plan .btn-1 button:hover {
+    background-color: #fff;
+    color: #1757A6;
+    transition: all .15s ease-in-out;
+}
+
+#pricing_plan .btn-2 button,
+#pricing_plan .btn-3 button {
+    background-color: #fff;
+    color: #1757A6;
+    padding: 5px 6px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .15s ease-in-out;
+}
+
+#pricing_plan .btn-2 button:hover,
+#pricing_plan .btn-3 button:hover {
+    background-color: #1757A6;
+    color: #fff;
+    transition: all .15s ease-in-out;
+}
+
+/* -------- pricing_plan_footer end -------- */
+#pricing_plan .pricing_plan_footer button {
+    background-color: #1757A6;
+    color: #fff;
+    padding: 5px 6px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15) !important;
+}
+/* ============= PRICING PLAN END ============= */
+
+/* ================ COMPLETE SERVICE START =============== */
+#complete_service {
+	background-image: linear-gradient(#262262, #184CA1);
+	color: #fff;
+}
+
+#complete_service h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+/* ================ COMPLETE SERVICE END =============== */
+
+/* ================ GET SERVICE START =============== */
+#get_service {
+	background-image: linear-gradient(#262262, #184CA1);
+	color: #fff;
+}
+
+#get_service h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+/* ================ GET SERVICE END =============== */

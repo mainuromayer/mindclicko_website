@@ -1,0 +1,151 @@
+.dashboard a {
+  color: #184ca1;
+}
+.dashboard a:hover {
+  text-decoration: none;
+}
+
+.dashboard .nav a {
+  color: black;
+}
+.dashboard .form-container {
+  padding: 20px;
+}
+
+.dashboard .content {
+  padding: 50px 0px 250px 0;
+}
+
+.dashboard .nav-item span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* large Device */
+@media (min-width: 768px) {
+  .dashboard .nav-item a i {
+    display: none;
+  }
+  .dashboard .nav-item span {
+    display: inline-block;
+    padding-left: 10px;
+  }
+}
+
+/* Medium Device */
+@media (max-width: 767px) {
+  .dashboard .nav-item {
+    margin-left: 12px;
+  }
+  .dashboard .nav-item span {
+    display: none;
+  }
+}
+
+/* Tablet Device */
+@media (max-width: 576px) {
+  .dashboard .nav-item span {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+.checkbox-custom {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-custom, .checkbox-custom-label {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 1px 5px;
+	cursor: pointer;
+}
+
+.checkbox-custom-label {
+  position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label::before {
+	content: "";
+	background: #fff;
+	border: 2px solid #262262;
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	padding: 2px;
+	margin-right: 9px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+	margin-top: 0;
+	position: absolute;
+	left: 34px;
+	top: 42px;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label::before {
+  background: #262262;
+  border: none;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label {
+  outline: 1px solid #fff; /* focus style */
+}
+
+
+
+#cupon_input {
+	padding: 10px 15px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	appearance: none;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	overflow: visible;
+	font-size: 12px;
+	background-color: transparent !important;
+	height: 40px;
+	border: 1px solid #707070;
+	display: inline-block;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#cupon_input:focus {
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#cupon_input:focus:focus-visible {
+  outline: none;
+  border: 1px solid #707070;
+}
+
+.cupon_button {
+  border: none;
+	background-image: linear-gradient(#262262, #184CA1);
+}
+
+
+.order_button {
+	background-image: linear-gradient(#262262, #184CA1);
+	border-radius: 10px;
+	color: #fff;
+	border: none;
+	padding: 6px 5px;
+	width: 150px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 600;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15) !important;
+}

@@ -1,0 +1,419 @@
+/* ================ OUR SERVICES START =============== */
+#portfolio {
+    background-image: linear-gradient(#262262, #184CA1);
+    color: #fff;
+}
+
+#portfolio h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+/* ================ OUR SERVICES END =============== */
+
+
+/* ================== Imgae Gallery Start =================== */
+#image_gallery {
+    margin: 0;
+    padding: 0;
+}
+#image_gallery input {
+    display: none;
+}
+#image_gallery .container {
+    width: 100%;
+    text-align: center;
+}
+#image_gallery .container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0C0B0B;
+}
+#image_gallery .container p {
+    font-size: 16px;
+    color: #0C0B0B;
+}
+
+#image_gallery .top_content {
+	height: 60px;
+	align-items: center;
+}
+@media screen and (max-width: 1400px) and (min-width: 768px){
+    .top_content label {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(0,0,0,.5);
+        cursor: pointer;
+        transition: .5s ease;
+        border-radius: 10px;
+        margin: 0;
+        padding: 5px 20px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 521px){
+    .top_content label {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(0,0,0,.5);
+        cursor: pointer;
+        transition: .5s ease;
+        border-radius: 10px;
+        margin: 0;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 520px) and (min-width: 0px){
+    .top_content label {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(0,0,0,.5);
+        cursor: pointer;
+        transition: .5s ease;
+        border-radius: 10px;
+        margin: 0;
+        padding: 5px 10px;
+    }
+}
+
+
+#image_gallery .top_content .check1.active,
+#image_gallery .top_content .check2.active,
+#image_gallery .top_content .check3.active,
+#image_gallery .top_content .check4.active {
+	color: #fff;
+	background-color: #184CA1;
+}
+
+#image_gallery .top_content .check1:active,
+#image_gallery .top_content .check2:active,
+#image_gallery .top_content .check3:active,
+#image_gallery .top_content .check4:active {
+	color: #fff;
+	background-color: #184CA1;
+}
+
+/* ----- graphic start ----- */
+.photo_gallery .graphic {
+    position: relative;
+    height: 230px;
+	transition: .5s ease;
+}
+
+.photo_gallery .graphic::before {
+	content: "Graphic Design";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 1;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 27px;
+	padding-top: 17px;
+	height: 100%;
+	transform: rotate(-50%, 50%);
+}
+.photo_gallery .graphic:hover::before {
+    margin-top: 0;
+    opacity: 1;
+    background-color: #33353673;
+}
+.photo_gallery .graphic img {
+    width: 100%;
+    height: 100%;
+}
+
+#check1:checked ~ .container .photo_gallery .graphic {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s ease;
+}
+/* ----- graphic end ----- */
+
+/* ----- motion start ----- */
+.photo_gallery .motion {
+    position: relative;
+    height: 230px;
+	transition: .5s ease;
+}
+
+.photo_gallery .motion::before {
+	content: "Motion Video";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 1;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 27px;
+	padding-top: 17px;
+	height: 100%;
+	transform: rotate(-50%, 50%);
+}
+.photo_gallery .motion:hover::before {
+    margin-top: 0;
+    opacity: 1;
+    background-color: #33353673;
+}
+.photo_gallery .motion img {
+    width: 100%;
+    height: 100%;
+}
+
+#check1:checked ~ .container .photo_gallery .motion {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s ease;
+}
+/* ----- motion end ----- */
+
+
+/* ----- web start ----- */
+.photo_gallery .web {
+    position: relative;
+    height: 230px;
+	transition: .5s ease;
+}
+
+.photo_gallery .web::before {
+	content: "Web Design";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 1;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 27px;
+	padding-top: 17px;
+	height: 100%;
+	transform: rotate(-50%, 50%);
+}
+.photo_gallery .web:hover::before {
+    margin-top: 0;
+    opacity: 1;
+    background-color: #33353673;
+}
+.photo_gallery .web img {
+    width: 100%;
+    height: 100%;
+}
+
+#check1:checked ~ .container .photo_gallery .web {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s ease;
+}
+/* ----- web end ----- */
+
+
+
+/* ----- ui start ----- */
+.photo_gallery .ui {
+    position: relative;
+    height: 230px;
+	transition: .5s ease;
+}
+
+.photo_gallery .ui::before {
+	content: "UI/UX Design";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 1;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 27px;
+	padding-top: 17px;
+	height: 100%;
+	transform: rotate(-50%, 50%);
+}
+.photo_gallery .ui:hover::before {
+    margin-top: 0;
+    opacity: 1;
+    background-color: #33353673;
+}
+.photo_gallery .ui img {
+    width: 100%;
+    height: 100%;
+}
+
+#check1:checked ~ .container .photo_gallery .ui {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s ease;
+}
+/* ----- ui end ----- */
+
+
+/* ----- check:1 start ----- */
+#check1:checked ~ .container .photo_gallery .graphic {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check1:checked ~ .container .photo_gallery .motion,
+#check1:checked ~ .container .photo_gallery .web,
+#check1:checked ~ .container .photo_gallery .ui
+ {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s ease;
+}
+/* ----- check:1 end ----- */
+
+/* ----- check:2 start ----- */
+#check2:checked ~ .container .photo_gallery .motion {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check2:checked ~ .container .photo_gallery .graphic,
+#check2:checked ~ .container .photo_gallery .web,
+#check2:checked ~ .container .photo_gallery .ui
+ {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s ease;
+}
+/* ----- check:2 end ----- */
+
+/* ----- check:3 start ----- */
+#check3:checked ~ .container .photo_gallery .web {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check3:checked ~ .container .photo_gallery .graphic,
+#check3:checked ~ .container .photo_gallery .motion,
+#check3:checked ~ .container .photo_gallery .ui
+ {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s ease;
+}
+/* ----- check:3 end ----- */
+
+/* ----- check:4 start ----- */
+#check4:checked ~ .container .photo_gallery .ui {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check4:checked ~ .container .photo_gallery .graphic,
+#check4:checked ~ .container .photo_gallery .motion,
+#check4:checked ~ .container .photo_gallery .web
+ {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s ease;
+}
+/* ----- check:4 end ----- */
+
+
+/* ================== Imgae Gallery End =================== */
+
+/* =========== CLIENT REVIEWS START ============= */
+#client-review .client_review_header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+#client-review .client_review_header p {
+    font-size: 16px;
+    color: #0C0B0B;
+}
+
+.client_reviews_button {
+    position: relative;
+    top: 20px;
+}
+
+.client-review img {
+    width: 30px;
+    height: 40px;
+}
+
+.client-section h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.client-section p {
+    font-size: 12px;
+}
+
+#client-review .home-demo .container {
+    position: relative;
+    padding: 0 50px;
+}
+
+#client-review .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 170px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1757A6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.37) !important;
+    z-index: 1;
+}
+
+#client-review .owl-next {
+    position: absolute;
+    right: 0;
+    top: 170px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1757A6;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.37) !important;
+    z-index: 1;
+}
+/* =========== CLIENT REVIEWS END ============= */
+
+/* ================ GET SERVICE START =============== */
+#get_service {
+	background-image: linear-gradient(#262262, #184CA1);
+	color: #fff;
+}
+
+#get_service h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+/* ================ GET SERVICE END =============== */

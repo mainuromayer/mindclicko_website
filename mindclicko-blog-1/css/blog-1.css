@@ -1,0 +1,209 @@
+/* =========== BLOG START ============= */
+#blog {
+    background-image: linear-gradient(#262262, #184CA1);
+    color: #fff;
+}
+
+#blog h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/* =========== BLOG END ============= */
+
+
+/* ========= BLOG SECTION: 1 START =========== */
+#search_input {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000;
+    background-clip: padding-box;
+    appearance: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    overflow: visible;
+    font-size: 13px;
+    height: 33px;
+    border: none;
+    display: inline-block;
+    padding: 0 18px;
+}
+
+input#search_input {
+    box-shadow: none;
+}
+
+
+/* ----- blog section: 1 | part: 1 START ----- */
+.blog-section-1_part-1 .form-control {
+    border: none;
+}
+
+.blog-section-1_part-1 .input-group {
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.blog-section-1_part-1 .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3), .blog-section-1_part-1 .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control, .blog-section-1_part-1 .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select, .blog-section-1_part-1 .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-radius: 50px;
+}
+
+/* ----- blog section: 1 | part: 1 END ----- */
+
+
+/* ----- blog section: 1 | part: 2 START ----- */
+.blog-section-1_part-2 {
+
+}
+
+.blog-section-1_part-2 h4 {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.blog-section-1_part-2 ul li {
+    list-style: none;
+    color: #707070;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ----- blog section: 1 | part: 2 END ----- */
+
+
+/* ----- blog section: 1 | part: 3 START ----- */
+.blog-section-1_part-3 .image {
+    background-image: url(../images/davisuko.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+}
+
+/* ----- blog section: 1 | part: 3 END ----- */
+
+
+/* ----- blog section: 1 | part: 4 START ----- */
+.blog-section-1_part-4 h4 {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* ----- blog section: 1 | part: 4 END ----- */
+
+
+/* ----- blog section: 1 | part: 5 START ----- */
+.blog-section-1_part-5 h4 {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.blog-section-1_part-5 .tags {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* ----- blog section: 1 | part: 5 END ----- */
+/* ========= BLOG SECTION: 1 END =========== */
+
+
+/* ========= BLOG SECTION: 2 START =========== */
+/* ----- blog section: 2 | badge START ----- */
+.badge {
+    line-height: 5px;
+    padding: 26px 17px 0px;
+    background-color: #184CA1;
+    position: absolute;
+    top: 349px;
+    left: 61px;
+    border-radius: unset;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.150) !important;
+}
+
+.badge .badge-title-1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.badge .badge-title-2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: -3px;
+}
+
+.badge .badge-title-3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 8px;
+}
+
+.blog_section-2 img {
+    width: 100%;
+    height: 300px;
+}
+
+/* ----- blog section: 2 | badge END ----- */
+
+
+/* ----- blog section: 2 | pagination START ----- */
+.pagination .page-item {
+    margin: 10px;
+}
+
+.pagination .page-item a {
+    border-radius: 15px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+    color: #1757A6;
+}
+
+.pagination .item-2, .pagination .item-3, .pagination .item-4, .pagination .item-5, .pagination .item-6 {
+    color: #707070;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #1757A6;
+    border-color: #1757A6;
+}
+
+.page-item .page-link:hover {
+    z-index: 1;
+    color: #fff;
+    background-color: #1757A6;
+    border-color: #1757A6;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #184CA1;
+}
+
+.page-item:first-child .page-link:hover {
+    color: #fff;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #184CA1;
+}
+
+.page-item:last-child .page-link:hover {
+    color: #fff;
+}
+
+/* ----- blog section: 2 | pagination END ----- */
+/* ========= BLOG SECTION: 2 END =========== */

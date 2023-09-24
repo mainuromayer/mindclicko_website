@@ -1,0 +1,56 @@
+/* ================ OUR TEAM START =============== */
+#our_team {
+    background-image: linear-gradient(#262262, #184CA1);
+    color: #fff;
+}
+
+#our_team h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+/* ================ OUR TEAM END =============== */
+
+/* ================ ABOUT START =============== */
+#about h2 {
+	font-weight: 700;
+	font-size: 30px;
+	color: #0C0B0B;
+}
+/* ================ ABOUT END =============== */
+
+/* ================ TEAM MEMBER START =============== */
+#team_member h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0C0B0B;
+}
+
+#team_member p {
+    font-size: 16px;
+    color: #0C0B0B;
+}
+/* ================ TEAM MEMBER END =============== */
+
+/* ================ COMPLETE SERVICE START =============== */
+#complete_service {
+	background-image: linear-gradient(#262262, #184CA1);
+	color: #fff;
+}
+
+#complete_service h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+/* ================ COMPLETE SERVICE END =============== */
+
+/* ================ GET SERVICE START =============== */
+#get_service {
+	background-image: linear-gradient(#262262, #184CA1);
+	color: #fff;
+}
+
+#get_service h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+/* ================ GET SERVICE END =============== */

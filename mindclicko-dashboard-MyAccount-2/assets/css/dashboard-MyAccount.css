@@ -1,0 +1,229 @@
+.dashboard a {
+  color: #184ca1;
+}
+.dashboard a:hover {
+  text-decoration: none;
+}
+.dashboard hr {
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid #707070;
+}
+.dashboard .nav a {
+  color: black;
+}
+.dashboard .form-container {
+  padding: 20px;
+}
+
+.dashboard .content {
+	padding: 50px 0px 250px 0;
+}
+
+.dashboard .sidebar_image span {
+  height: 55px;
+  width: 55px;
+  background-image: url(../images/circle-image/image-1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.dashboard .nav-item span {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+/* large Device */
+@media (min-width: 768px) {
+  .dashboard .nav-item a i {
+    display: none;
+  }
+  .dashboard .nav-item span {
+    display: inline-block;
+	padding-left: 10px;
+  }
+  .dashboard .sidebar_ul ul {
+	width: 100%;
+  }
+}
+
+/* Medium Device */
+@media (max-width: 767px) {
+  .dashboard .sidebar_image span {
+    width: unset;
+  }
+  .dashboard .sidebar_image_content {
+    text-align: center;
+  }
+  .dashboard .nav-item {
+    margin-left: 12px;
+  }
+  .dashboard .nav-item span {
+    display: none;
+  }
+}
+
+/* Tablet Device */
+@media (max-width: 576px) {
+  .dashboard .sidebar_image span {
+    width: unset;
+  }
+  .dashboard .sidebar_image_content {
+    text-align: center;
+  }
+  .dashboard .nav-item span {
+    display: none;
+  }
+}
+
+.dashboard #user_name {
+	padding: 10px 15px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: 1px solid #707070;
+	appearance: none;
+	border-radius: 10px;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	overflow: visible;
+	font-size: 14px;
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+	width: 100%;
+  	max-width: 320px;
+}
+
+.dashboard #select-addon {
+	background: #ffffff;
+	padding: 10px 15px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: 1px solid #707070;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-right: none;
+	overflow: visible;
+	font-size: 14px;
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+	z-index: 1;
+}
+
+.dashboard #user_number {
+	padding: 10px 15px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: 1px solid #707070;
+	appearance: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	overflow: visible;
+	font-size: 14px;
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+	z-index: 0;
+}
+
+@media (min-width: 454px) {
+	.dashboard #user_number {
+		max-width: 248px;
+		width: 100%;
+	}
+}
+@media (max-width: 453px) and (min-width: 360px) {
+	.dashboard #user_number {
+		max-width: 248px;
+	}
+}
+
+
+@media (max-width: 359px) {
+	.dashboard #user_number {
+		max-width: 248px;
+		width: 100%;
+	}
+}
+
+
+.dashboard #user_name:focus-visible {
+  outline: none;
+}
+
+.dashboard #user_number:focus-visible {
+	outline: none;
+}
+
+.dashboard #user_number::-webkit-outer-spin-button,
+.dashboard #user_number::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.dashboard #user_number[type=number] {
+	-moz-appearance: textfield;
+	/* Firefox */
+}
+
+.dashboard #user_email {
+	padding: 10px 15px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: 1px solid #707070;
+	appearance: none;
+	border-radius: 10px;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	overflow: visible;
+	font-size: 14px;
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+	width: 100%;
+	max-width: 320px;
+}
+
+.dashboard #user_email:focus-visible {
+  outline: none;
+}
+
+.dashboard form #user_password {
+	padding: 10px 15px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: 1px solid #707070;
+	appearance: none;
+	border-radius: 10px;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	overflow: visible;
+	font-size: 14px;
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.15) !important;
+	width: 100%;
+	max-width: 320px;
+}
+
+.dashboard form #user_password:focus-visible {
+  outline: none;
+}
+
+
+.dashboard .save_button button {
+	color: #fff;
+	background-color: #28a745;
+	border: none;
+	width: 80px;
+	height: 35px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.dashboard .save_button button:hover {
+	color: #fff;
+	background-color: #218838;
+}

@@ -1,0 +1,292 @@
+/* =========== BLOG START ============= */
+#blog {
+    background-image: linear-gradient(#262262, #184CA1);
+    color: #fff;
+}
+
+#blog h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/* =========== BLOG END ============= */
+
+/* ========= BLOG SECTION: 1 START =========== */
+/* ----- details_section start ----- */
+.details_section h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.details_section p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 24px;
+}
+
+.details_section h3 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/* ----- details_section start ----- */
+
+/* ----- quote_section start ----- */
+.quote_section h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.quote_section p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ----- quote_section end ----- */
+
+/* ----- faq_section start ----- */
+.faq_section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.faq_section p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 24px;
+}
+
+/* ----- faq_section end ----- */
+
+/* ----- tag_section start ----- */
+.tag_section .tags h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.tags_group span {
+    border-radius: 15px;
+    color: #707070;
+    background-color: #ffffff;
+}
+
+.tag_section .social_share h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.tag_section .social_share .social_icon_group span {
+    color: #184CA1;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px 2px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    background-color: #ffffff;
+}
+
+/* ----- tag_section end ----- */
+
+/* ----- slider_section start ----- */
+.slider_section img {
+    width: 70px;
+    height: 70px;
+}
+
+.slider_section h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.slider_section h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.slider_section p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #707070;
+}
+
+.slider_section .reply_section-2 h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.slider_section .custom_border {
+    border-bottom: 2px solid #707070;
+}
+
+/* ----- slider_section end ----- */
+
+/* ----- comment_secion start ----- */
+.comment_section h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #707070;
+}
+
+#fname {
+	width: 100%;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #ffffff;
+	background-clip: padding-box;
+	border: 1px solid #ffffff;
+	appearance: none;
+	border-radius: 15px;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	overflow: visible;
+}
+
+#fname:focus-visible {
+	outline: none;
+}
+
+#lname {
+	width: 100%;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #ffffff;
+	background-clip: padding-box;
+	border: 1px solid #ffffff;
+	appearance: none;
+	border-radius: 15px;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	overflow: visible;
+}
+
+#lname:focus-visible {
+	outline: none;
+}
+
+#comment {
+    resize: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+	padding: 15px 20px;
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+    appearance: none;
+    border-radius: 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    overflow: visible;
+}
+
+#comment:focus-visible {
+	outline: none;
+}
+
+/* ----- comment_secion end ----- */
+
+/* ------------------ */
+input[type="checkbox"] {
+	position: relative;
+	border: 1px solid #707070;
+	background: none;
+	cursor: pointer;
+	line-height: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0 !important;
+	vertical-align: text-top;
+	height: 16px;
+	width: 16px;
+	-webkit-appearance: none;
+}
+
+input[type=checkbox]:hover {
+  opacity: 1;
+}
+
+input[type=checkbox]:checked {
+  background-color: #000;
+  opacity: 1;
+}
+
+input[type=checkbox]:before {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 4px;
+  height: 10px;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  margin: 0;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+/* ------------------ */
+/* ========= BLOG SECTION: 1 END =========== */
+
+
+/* ========= BLOG SECTION: 2 START =========== */
+.blog_section-2 h4 {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* blog section: 2 | badge start  */
+.badge {
+    line-height: 5px;
+    padding: 26px 17px 0px;
+    background-color: #184CA1;
+    position: absolute;
+    top: 349px;
+    left: 61px;
+    border-radius: unset;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.150) !important;
+}
+
+.badge .badge-title-1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.badge .badge-title-2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: -3px;
+}
+
+.badge .badge-title-3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 8px;
+}
+
+.blog_section-2 .header_image img {
+    width: 100%;
+    height: 300px;
+}
+
+/* blog section: 2 | badge end  */
+/* ========= BLOG SECTION: 2 END =========== */
